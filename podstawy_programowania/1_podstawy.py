@@ -12,3 +12,15 @@ print(text * 2)
 # + kokatenacja (połączenie dwóch stringów)
 name = input()
 print("Twoje imie: " + name)
+
+surname = input()
+print("Twoje imie: " + name + ", nazwisko: " + surname)
+
+length = len(surname)
+print(length)
+print(type(surname))
+print(type(length))
+
+length = str(length)
+print(type(length))
+
