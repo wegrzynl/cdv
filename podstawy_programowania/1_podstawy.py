@@ -24,3 +24,21 @@ print(type(length))
 length = str(length)
 print(type(length))
 
+#Uzytkownik podaje z klawiatury swoje dane:
+#imie, nazwisko, wiek,
+#wyświetl
+'''
+blokowy komentarz
+'''
+
+name = input()
+
+surname = input()
+
+wiek = input()
+
+print("Twoje imie: " + name + ", nazwisko: " + surname + ", wiek: " + wiek)
+
+print("\nPodaj swój wiek: ", end="")
+
+surname = "Kowalski"
