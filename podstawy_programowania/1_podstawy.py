@@ -40,5 +40,36 @@ wiek = input()
 print("Twoje imie: " + name + ", nazwisko: " + surname + ", wiek: " + wiek)
 
 print("\nPodaj swój wiek: ", end="")
+surname = "Kowalski"
+firstLetter = surname[0]
+
+lastLetter = surname[len(surname) -1]
+print(lastLetter)
+
+#konwersja
+x = "5"
+print(type(x))
+x = int(x)
+print(type(x))
+
+y = 4
+print(type(y)) #int
+y = y / 2
+print(type(y)) #float
+print(y) #2.0
+
 
 surname = "Kowalski"
+print()
+print(surname[0]) #K
+print(surname[0:3]) #Kow
+print(surname[-2]) #k
+print(surname[-2:]) #ki
+print(surname[:-2]) #Kowals
+print(surname[:-2:2]) #Kwl
+
+print()
+
+
+
+
